@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/2892ab21e4.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiicar</title>
+</head>
+<body>
+    
+    <div class="app">
+            <!-- navegación -->
+            <div class="nav">
+            <!-- header -->
+        
+                <header>
+            <nav>
+
+                    <i class="fa-solid fa-bars menu--icon"></i>
+                    <!-- remplazo el icono con este h3 porque no cuento con la imagen -->
+                    <h3 class="logo">wiicar</h3>
+                    <button class="btn--salir">
+                        <i class="fa-solid fa-power-off"></i>
+                        <p>salir</p>
+                    </button>
+
+                </nav>
+
+            <!-- tabs -->
+            <div class="tabs">
+
+                    <div class="preparacion active">
+                        <i class="fa-solid fa-car"></i>
+                        <p>Preparación</p>
+                    </div>
+                    <div class="almacenamiento">
+                        <i class="fa-solid fa-car"></i>
+                        <p>Almacenamiento</p>
+                    </div><div class="venta">
+                        <i class="fa-solid fa-tags"></i>
+                        <p>En Venta</p>
+                    </div>
+                    <div class="vendidos">
+                        <i class="fa-regular fa-money-bill-1"></i>
+                        <p>Vendidos</p>
+                    </div>
+
+            </div>
+                </header>
+        
+            <!-- header -->
+            </div>
+
+            
+            <!-- contenedor de datos -->
+
+            <div class="info--container">
+                <!-- <span>No existen datos para mostrar</span> -->
+                <div class="table--header">
+
+                    <div class="input--check-cont">
+                        <input type="checkbox" name="" id="checkbox">
+                    </div>
+
+                    <div class="id--header-cont">
+                        <p>ID</p>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+
+                    <div class="placa--header-cont">
+                        <p>Placa</p>
+                        <i class="fa-solid fa-sort"></i>
+                        </div>
+
+                    <div class="marca--header-cont">
+                        <p>Marca</p>
+                        <i class="fa-solid fa-sort"></i>                 
+                        </div>
+
+                    <div class="modelo--header-cont">
+                        <p>Modelo</p>
+                        <i class="fa-solid fa-sort"></i>
+                        </div>
+
+                    <div class="kilometraje--header-cont">
+                        <p>Kilometraje</p>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+
+                    <div class="transmision--header-cont">
+                        <p>Transmisión</p>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+
+                    <div class="tipo--header-cont">
+                        <p>Tipo</p>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+
+                    <div class="precio--header-cont">
+                        <p>Precio de compra</p>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+
+                    <div class="proviniencia--header-cont">
+                        <p>Proviniencia</p>
+                        <i class="fa-solid fa-sort"></i>
+                    </div>
+                </div>
+
+                <!-- datos -->
+                <div class="datos--container">
+
+                    <div class="input--check-datos">
+                        <input type="checkbox" name="" id="checkbox">
+                    </div>
+
+                    <div class="id--datos">
+                        <p>255</p>
+                    </div>
+
+                    <div class="placa--datost">
+                        <p>IWF567</p>
+                    </div>
+
+                    <div class="marca--datos">
+                        <p>Tesla</p>
+                    </div>
+
+                    <div class="modelo--datos">
+                        <p>S</p>
+                    </div>
+
+                    <div class="kilometraje--datos">
+                        <p>14.500km</p>
+                    </div>
+
+                    <div class="transmision--datos">
+                        <p>Automatica</p>
+                    </div>
+
+                    <div class="tipo--datos">
+                        <p>Automovil</p>
+                    </div>
+
+                    <div class="precio--datos">
+                        <p>$78.899.000</p>
+                    </div>
+
+                    <div class="proviniencia--datos">
+                        <button>Nuevo <i class="fa-solid fa-eye"></i></button>
+                    </div>
+
+                    <div class="acciones--datos">
+                        <select name="" id="">
+                            <option value="">Editar</option>
+                            <option value="">Almacenar</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- datos -->
+
+            </div>
+
+            <!-- contenedor de datos -->
+
+
+            <!-- sección de filtros -->
+
+            <div class="filtros--container">
+                <!-- input de busqueda por coincidencia -->
+                <div class="input--busqueda">
+                    <input type="text" name="" id="" placeholder="Busqueda por coincidencia"><i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <!-- filtro de cantidad de resultado -->
+                <div class="filtro--cant-resultado">
+                    <span>resultado</span>
+                    <select name="" id="">
+                        <option value="10"><p>10</p>
+                    </option>
+                    <option value="30">30</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                    </select>
+                </div>
+
+            <!-- paginación -->
+                <div class="paginacion">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <button>1</button>
+                    <p>de 100</p>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+
+                <!-- acciones btn -->
+                <div class="acciones--btn-container">
+                    <select name="" id="btn--select">
+                        <option value="">Acciones</option>
+                        <option value="nuevo">Nuevo registro</option>
+                        <option value="carga-masiva">Cargue masivo</option>
+                    </select>
+
+                </div>
+            </div>
+
+            <!-- sección de filtros -->
+
+            <!-- ventana de carga (modal) -->
+
+            <div class="modal--container">
+
+                <div class="modal">
+                    <div class="header--modal">
+                        <p>Cargando</p>
+                    </div>
+                    <div class="body--modal">
+                        <div class="icono--modal">
+                            <i class="fa-solid fa-circle-notch"></i>
+                        </div>
+                        <div class="mensaje--modal">
+                            <h4>Cargue Masivo</h4>
+                            <p>Espera un momento mientras procesamos los datos, esto puede tardar unos minutos.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ventana de carga (modal) -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
